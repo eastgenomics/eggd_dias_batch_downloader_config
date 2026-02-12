@@ -61,6 +61,7 @@ CONFIG = {
             },
             "mosaic_reports": {
                 "exec_regex": r"dias_reports.*\(mosaic\)",
+                "sample_name_regex": r"([^_]+-[^_]+)",
                 "desc_paths": {
                     "mosaic": [
                         "output",
