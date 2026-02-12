@@ -48,7 +48,7 @@ CONFIG = {
                 }
             },
             "cnv_reports_workflow": {
-                "exec_regex": r"^dias_reports.*\(CNV\)",
+                "exec_regex": r"^dias_cnvreports.*\(CNV\)",
                 "sample_name_regex": r"([^_]+-[^_]+)",
                 "desc_paths": {
                     "CNV": [
