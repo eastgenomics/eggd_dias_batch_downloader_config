@@ -5,7 +5,8 @@ CONFIG = {
             "output": True,
             "input": True,
             "project": True,
-            "executableName": True
+            "executableName": True,
+            "state": True
         },
         "exec_regex": r"^eggd_dias_batch",
         "files": {
