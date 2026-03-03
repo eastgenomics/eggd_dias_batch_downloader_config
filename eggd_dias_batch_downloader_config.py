@@ -1,4 +1,5 @@
 CONFIG = {
+    "version": "1.0.0",
     "max_workers": 8,
     "batch_job_query": {
         "dx_desc_fields": {
