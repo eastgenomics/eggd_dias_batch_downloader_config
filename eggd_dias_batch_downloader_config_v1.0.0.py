@@ -106,7 +106,7 @@ CONFIG = {
             #"TWE": "/appdata/clingen/cg/Regional Genetics Laboratories/Molecular Genetics/Data archive/Sequencing HT/WES/",
             "TWE": "/home/greg/Downloads/Test_download"
         },
-        "linux_prefix": "/appdata",
+        "linux_prefix": "/appdata/clingen",
         "windows_prefix": r"\\clingen"
     }
 }
