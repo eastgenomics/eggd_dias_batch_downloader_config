@@ -1,5 +1,6 @@
 CONFIG = {
     "version": "1.0.0",
+    "log_file": "/appdata/dias_downloader/logs/eggd_dias_batch_downloader.log",
     "max_workers": 8,
     "batch_job_query": {
         "dx_desc_fields": {
@@ -50,7 +51,7 @@ CONFIG = {
                 }
             },
             "cnv_reports_workflow": {
-                "exec_regex": r"^dias_cnvreports.*\(CNV\)",
+                "exec_regex": r"dias_cnvreports.*\(CNV\)",
                 "sample_name_regex": r"([^_]+-[^_]+)",
                 "desc_paths": {
                     "CNV": [
@@ -102,10 +103,8 @@ CONFIG = {
     },
     "output_config": {
         "folder_paths": {
-            #"CEN": "/appdata/clingen/cg/Regional Genetics Laboratories/Molecular Genetics/Data archive/Sequencing HT/CEN/Run folders/",
-            "CEN": "/home/greg/Downloads/Test_download",
-            #"TWE": "/appdata/clingen/cg/Regional Genetics Laboratories/Molecular Genetics/Data archive/Sequencing HT/WES/",
-            "TWE": "/home/greg/Downloads/Test_download"
+            "CEN": "/appdata/clingen/cg/Regional Genetics Laboratories/Molecular Genetics/Data archive/Sequencing HT/CEN/Run folders/",
+            "TWE": "/appdata/clingen/cg/Regional Genetics Laboratories/Molecular Genetics/Data archive/Sequencing HT/WES/",
         },
         "linux_prefix": "/appdata/clingen",
         "windows_prefix": r"\\clingen"
