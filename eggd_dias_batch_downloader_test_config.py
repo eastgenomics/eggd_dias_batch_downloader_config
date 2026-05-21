@@ -104,7 +104,7 @@ CONFIG = {
     "output_config": {
         "folder_paths": {
             "CEN": "/appdata/dias_downloader/tests/clingen/cg/Regional Genetics Laboratories/Molecular Genetics/Data archive/Sequencing HT/CEN/Run folders/",
-            "WES": "/appdata/dias_downloader/tests/clingen/cg/Regional Genetics Laboratories/Molecular Genetics/Data archive/Sequencing HT/WES/",
+            "TWE": "/appdata/dias_downloader/tests/clingen/cg/Regional Genetics Laboratories/Molecular Genetics/Data archive/Sequencing HT/WES/",
         },
         "linux_prefix": "/appdata/clingen",
         "windows_prefix": r"\\clingen"
